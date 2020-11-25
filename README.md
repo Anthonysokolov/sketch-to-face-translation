@@ -7,7 +7,7 @@ Test the perforamce of different optimization algorithms and learning rates on a
 Clean dataset for centered, non distorted images.  
 
 # Dataset
-Facial images taken from `https://www.kaggle.com/jessicali9530/celeba-dataset'. 
-Facial outlines generated using Canny Edge Detection algorithm. 
+Facial images taken from `https://www.kaggle.com/jessicali9530/celeba-dataset`.  
+Facial outlines generated using Canny Edge Detection algorithm.  
 Sketch images taken from `https://www.kaggle.com/arbazkhan971/cuhk-face-sketch-database-cufs`
 
