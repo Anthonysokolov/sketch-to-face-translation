@@ -3,11 +3,11 @@ This repository features several notebooks exploring the performance of differen
 
 # Milestones
 Test the performance of different generator network depths and Adam optimizer learning rates on a conditional GAN model.  
-Test the perforamce of different optimization algorithms and learning rates on a CycleGAN model.  
+Test the performance of different optimization algorithms and learning rates on a CycleGAN model.  
 Clean dataset for centered, non distorted images.  
 
 # Dataset
 Facial images taken from `https://www.kaggle.com/jessicali9530/celeba-dataset`.  
 Facial outlines generated using Canny Edge Detection algorithm.  
-Sketch images taken from `https://www.kaggle.com/arbazkhan971/cuhk-face-sketch-database-cufs`
+Realistic sketches generated using openCV.
 
