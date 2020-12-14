@@ -1,11 +1,7 @@
-Dataset : [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
-
-We used the Celebrity Faces Dataset downloaded from Kaggle. We selected this dataset as it offered a wide range of faces to train our model and had been published by Hong Kong University for the purpose of being used as training data for training computer vision models.  
-
-## Prepare your own datasets for CycleGAN
+##Prepare your own datasets for CycleGAN
 You need to create two directories to host images from domain A /path/to/data/trainA and from domain B /path/to/data/trainB. Then you can train the model with the dataset flag --dataroot /path/to/data. Optionally, you can create hold-out test datasets at /path/to/data/testA and /path/to/data/testB to test your model on unseen images.
 
-## Prepare your own datasets for pix2pix
+##Prepare your own datasets for pix2pix
 Pix2pix’s training requires paired data. We provide a python script to generate training data in the form of pairs of images {A,B}, where A and B are two different depictions of the same underlying scene. For example, these might be pairs {label map, photo} or {bw image, color image}. Then we can learn to translate A to B or B to A:
 
 Create folder /path/to/data with subdirectories A and B. A and B should each have their own subdirectories train, val, test, etc. In /path/to/data/A/train, put training images in style A. In /path/to/data/B/train, put the corresponding images in style B. Repeat same for other data splits (val, test, etc).
