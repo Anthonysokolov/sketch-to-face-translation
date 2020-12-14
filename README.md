@@ -10,4 +10,5 @@ Facial images taken from `https://www.kaggle.com/jessicali9530/celeba-dataset`.
 Realistic sketches generated using openCV.
 
 # Our Examples
+![Examples](/example_outputs.png)
 
